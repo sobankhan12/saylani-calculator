@@ -1,0 +1,64 @@
+* {
+    margin: auto;
+    padding: 0;
+}
+
+.main {
+    border: 10px solid salmon;
+    border-radius: 10px;
+    width: 300px;
+    height: 310px;
+    margin: 30px auto;
+    background-color: #90caf9;
+}
+
+.name {
+    /* background-color: lightblue; */
+    background-color: #90caf9;
+    color: #ff8a80;
+}
+
+.name>h2 {
+    padding: 2px;
+    margin-left: 10px;
+    color: li;
+    text-align: center;
+}
+
+.display>input {
+    width: 97%;
+    height: 20px;
+    padding: 2px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.clearbtn {
+    width: 100%;
+    height: 50px;
+    margin-top: 2px;
+    background-color: grey;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.btn {
+    background-color: grey;
+    width: 70px;
+    height: 50px;
+    margin: 1px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.halfbtn {
+    background-color: grey;
+    width: 146px;
+    height: 40px;
+    margin: 1px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+}

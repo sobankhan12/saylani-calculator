@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="name">
+            <h2>Scientific Calculator</h2>
+            <!-- <hr> -->
+        </div>
+        <div class="display">
+            <input type="text" name="" id="display">
+        </div>
+        <div class="clear">
+            <button class="clearbtn" onclick="clearResult()">C</button>
+            <!-- <hr> -->
+        </div>
+
+        <div>
+            <button class="btn" onclick="getNumber('7')">7</button>
+            <button class="btn" onclick="getNumber('7')">8</button>
+            <button class="btn" onclick="getNumber('9')">9</button>
+            <button class="btn" onclick="getNumber('*')">X</button>
+
+            <!-- <hr> -->
+        </div>
+        <div> <button class="btn" onclick="getNumber('4')">4</button>
+            <button class="btn" onclick="getNumber('5')">5</button>
+            <button class="btn" onclick="getNumber('6')">6</button>
+            <button class="btn" onclick="getNumber('-')">-</button>
+
+            <!-- <hr> -->
+        </div>
+        <div>
+            <button class="btn" onclick="getNumber('1')">1</button>
+            <button class="btn" onclick="getNumber('2')">2</button>
+            <button class="btn" onclick="getNumber('3')">3</button>
+            <button class="btn" onclick="getNumber('+')">+</button>
+
+            <!-- <hr> -->
+        </div>
+        <div>
+            <button class="halfbtn" onclick="getNumber('0')">0</button>
+            <button class="halfbtn" onclick="iseqaulto()">=</button>
+
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
